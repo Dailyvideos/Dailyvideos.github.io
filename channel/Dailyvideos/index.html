@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dailyvideos - YouTube Channel</title>
+  <title>Dailyvideos</title>
   <style>
     body, html {
       margin: 0;
@@ -35,7 +35,7 @@
       width: 96px;
       height: 96px;
       border-radius: 50%;
-      background: url('https://via.placeholder.com/96') center/cover no-repeat;
+      background: center/cover no-repeat;
       border: 4px solid #eee;
       flex-shrink: 0;
     }
@@ -126,7 +126,9 @@
 <body>
 
   <header class="channel-header">
-    <div class="channel-avatar" aria-label="Channel profile picture"></div>
+    <div class="channel-avatar" aria-label="Channel profile picture" 
+         style="background-image: url('https://Dailyvideos.github.io/channel/Dailyvideos/channel-logo/001.png');">
+    </div>
     <div class="channel-info">
       <h1 class="channel-name">Dailyvideos</h1>
       <div class="subscriber-count">0 subscribers</div>
@@ -136,9 +138,9 @@
 
   <nav class="nav-tabs" role="tablist" aria-label="Channel navigation">
     <div class="nav-tab active" role="tab" aria-selected="true" tabindex="0">Home</div>
-    <div class="nav-tab" role="tab" tabindex="-0">Videos</div>
-    <div class="nav-tab" role="tab" tabindex="-0">Playlists</div>
-    <div class="nav-tab" role="tab" tabindex="-0">About</div>
+    <div class="nav-tab" role="tab" tabindex="-1">Videos</div>
+    <div class="nav-tab" role="tab" tabindex="-1">Playlists</div>
+    <div class="nav-tab" role="tab" tabindex="-1">About</div>
   </nav>
 
   <main>
